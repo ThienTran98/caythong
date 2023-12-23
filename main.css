@@ -1,0 +1,208 @@
+.container {
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thunk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tree {
+  border-width: 55px 80px;
+  border-style: solid;
+  border-color: transparent transparent green transparent;
+}
+.trapezium {
+  position: relative;
+  height: 0;
+  width: 160px;
+  border-bottom: 70px solid green;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+}
+.trapezium1 {
+  position: relative;
+  height: 0;
+  width: 220px;
+  border-bottom: 80px solid green;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+}
+.trapezium2 {
+  position: relative;
+  height: 0;
+  width: 280px;
+  border-bottom: 80px solid green;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+}
+.trapezium3 {
+  position: relative;
+  height: 0;
+  width: 340px;
+  border-bottom: 80px solid green;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+}
+.trapezium4 {
+  position: relative;
+  height: 0;
+  width: 400px;
+  border-bottom: 80px solid green;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+}
+.thunk__tree {
+  position: relative;
+  width: 80px;
+  height: 250px;
+  background-color: #484b4d;
+}
+
+.circle__small {
+  position: absolute;
+  content: "";
+  top: -15px;
+  right: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+.circle__big {
+  position: absolute;
+  content: "";
+  top: 10px;
+  right: 3%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+.circle__small-1 {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 72%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+.circle__big-1 {
+  position: absolute;
+  content: "";
+  top: 6px;
+  right: 37%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+.circle__small-2 {
+  position: absolute;
+  content: "";
+  top: 15px;
+  right: 32%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+.circle__big-2 {
+  position: absolute;
+  content: "";
+  top: -18px;
+  right: 94%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+.circle__small-3 {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 72%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+.circle__big-3 {
+  position: absolute;
+  content: "";
+  top: 6px;
+  right: 37%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+.circle__small-4 {
+  position: absolute;
+  content: "";
+  top: -4px;
+  right: 85%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+.circle__big-4 {
+  position: absolute;
+  content: "";
+  top: 13px;
+  right: 7%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+.circle__small-5 {
+  position: absolute;
+  content: "";
+  top: -55px;
+  right: 3%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+.circle__big-5 {
+  position: absolute;
+  content: "";
+  top: -22px;
+  right: 124%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0c71bf;
+  animation: animationLively 1s infinite;
+}
+@keyframes animationLively {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: #cbdc29;
+  }
+  100% {
+    background-color: #08782f;
+  }
+}
